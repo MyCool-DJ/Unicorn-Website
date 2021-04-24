@@ -4,7 +4,10 @@ body, html {
   color: #777;
   line-height: 1.8;
   background-color: black;
-}
+  position: center;
+  top: 0px;
+  left: 30px;
+}lefty
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -41,10 +44,19 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+.Cover photo{
+  flex: auto;
+  flex-direction: row;
 }
-</style>
-<body>
+}
 
-img {
-  
+p{
+  color: rgb(236, 231, 225);
+}
+
+.Cover photo{
+position: absolute;
+}
+div {
+  text-align: center;
 }
