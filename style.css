@@ -1,9 +1,9 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Century Gothic", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Century Gothic", sans-serif;} /*I changed the font*/
 body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
-  background-color: black;
+  background-color: black; /*I added background-color and postion:center*/
   position: center;
   top: 0px;
   left: 30px;
@@ -25,7 +25,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: "#");
+  background-image: "#";
   min-height: 400px;
 }
 
@@ -44,19 +44,23 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
-.Cover photo{
-  flex: auto;
-  flex-direction: row;
-}
-}
+/*I add this color for the text of my website to be slightly off the default white*/
 
 p{
   color: rgb(236, 231, 225);
 }
 
+/*I added this extra CSS for better viewing on a phone*/
+
+.Cover photo{
+  flex: auto;
+  flex-direction: row;
+}
+
 .Cover photo{
 position: absolute;
 }
+
 div {
   text-align: center;
 }
