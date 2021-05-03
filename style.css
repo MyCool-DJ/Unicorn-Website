@@ -75,4 +75,5 @@ position: absolute;
 
 div {
   text-align: center;
+  flex: auto;
 }
