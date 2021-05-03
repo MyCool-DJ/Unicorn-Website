@@ -7,8 +7,20 @@ body, html {
   position: center;
   top: 0px;
   left: 30px;
-}lefty
-
+}
+h1{
+  color: rgb(236, 231, 225);
+   font-size: 1.5em;
+}
+}
+h2{
+  color: rgb(236, 231, 225);
+  font-size: 1.25em;
+}
+h3{
+  color: rgb(236, 231, 225);
+  font-size: 1em;
+}
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
