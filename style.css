@@ -71,12 +71,14 @@ p{
 }
 
 .Cover photo{
-position: absolute;
+  position: absolute;
 }
-
-div {
+/*can not get my css to centre my table*/
+table {
   text-align: center;
   flex: auto;
+  position: auto;
+  justify-self: center;
 }
 
 html{
